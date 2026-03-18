@@ -1,0 +1,202 @@
+/* form elements */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: #ff6b6b;
+    outline: none;
+}
+
+/* Buttons */
+.submit-btn,
+.btn,
+.btn-primary,
+.btn-secondary,
+.btn-like,
+.btn-message {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.1s ease;
+}
+
+.btn-primary,
+.submit-btn {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+.btn-primary:hover,
+.submit-btn:hover {
+    background-color: #ff5252;
+    box-shadow: 0 4px 8px rgba(255, 107, 107, 0.3);
+}
+
+.btn-secondary {
+    background-color: #ecf0f1;
+    color: #34495e;
+}
+
+.btn-secondary:hover {
+    background-color: #bdc3c7;
+}
+
+.btn-like {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.btn-like:hover {
+    background-color: #ff5252;
+}
+
+.btn-message {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.btn-message:hover {
+    background-color: #2980b9;
+}
+
+/* registration/login forms */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.welcome-message {
+    background-color: #354a5e;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    margin: 0;
+}
+
+.form-wrapper {
+    padding: 30px;
+}
+
+.form-wrapper h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin: 0 0 25px;
+    text-align: center;
+}
+
+/* countdown form */
+.countdown-form {
+    margin: 15px 0;
+}
+
+.countdown-form .form-group {
+    margin-bottom: 10px;
+}
+
+.countdown-form label {
+    display: inline-block;
+    width: 60px;
+    font-weight: bold;
+}
+
+.countdown-form input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.countdown-timer {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e74c3c;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/* message form (conversation) */
+.message-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.message-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    resize: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    height: 80px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.message-form textarea:focus {
+    border-color: #ff6b6b;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.1);
+}
+
+.send-btn {
+    align-self: flex-end;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.send-btn:hover {
+    background: #ff5252;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 107, 107, 0.3);
+}
